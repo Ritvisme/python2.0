@@ -14,7 +14,7 @@
 # # Calculate the sum of the list
 # b = sum_list(L)
 # print(f"The sum of the list is: {b}")
-#largest elemet in the list
+#largest element in the list
 # def largest_list(numbers):
 #     # Ensure the list is not empty
 #     # if len(numbers) == 0:
@@ -48,7 +48,6 @@ class Car1:
         self.engine_type=engine_type;
     def drive(self):
         print(f"{self.name} is driving");
-
 class Tesla(Car1):
         def __init__(self,name,model,engine_type,autopilot):
             super().__init__(name,model,engine_type);
